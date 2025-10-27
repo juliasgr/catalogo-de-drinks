@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cocktails • Catálogo de Drinks</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar" role="banner">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <div>
+          <h1 class="logo">Cocktails</h1>
+          <div class="tagline">Meu catálogo pessoal de drinks</div>
+        </div>
+      </div>
+
+      <div class="search-area" role="search">
+        <input id="search" type="search" placeholder="Buscar drink" aria-label="Buscar drink" />
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="main" role="main">
+    <section id="grid" class="grid" aria-live="polite"></section>
+  </main>
+
+  <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-panel" role="document">
+      <button id="closeModal" class="modal-close" aria-label="Fechar">✕</button>
+      <div class="modal-top">
+        <img id="modal-img" class="modal-img" alt="" />
+        <div class="modal-header">
+          <h2 id="modal-title"></h2>
+          <p id="modal-tipo" class="muted"></p>
+          <div id="modal-tags" class="tags"></div>
+        </div>
+      </div>
+
+      <div class="modal-body">
+        <h3>Ingredientes</h3>
+        <ul id="modal-ingredientes" class="ingredientes" aria-live="polite"></ul>
+
+        <div class="modal-actions">
+          <button id="toggleList" class="btn-outline">Modo seleção de ingredientes</button>
+          <p id="contador" class="contador" hidden>0 selecionados</p>
+          <button id="clearChecks" class="btn-link" hidden>Limpar seleção</button>
+        </div>
+
+        <h3>Preparo</h3>
+        <p id="modal-preparo"></p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Feito por Julia Seger • Catálogo pessoal</p>
+    </div>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

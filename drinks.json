@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "nome": "Mojito",
+    "imagem": "assets/mojito.png",
+    "tipo": "Alcoólico",
+    "tags": ["Refrescante", "Clássico"],
+    "ingredientes": ["Rum branco", "Suco de limão", "6 folhas de hortelã", "2 colheres de chá de açúcar", "Água com gás", "Gelo"],
+    "preparo": "Amasse a hortelã com o açúcar e o suco, acrescente rum, gelo e complete com água com gás. Mexa levemente."
+  },
+  {
+    "id": 2,
+    "nome": "Caipirinha",
+    "imagem": "assets/caipirinha.png",
+    "tipo": "Alcoólico",
+    "tags": ["Refrescante", "Limão"],
+    "ingredientes": ["Cachaça", "Açúcar", "Limão", "Gelo"],
+    "preparo": "Misture todos os ingredientes em um copo, amassando o limão com o açúcar antes de adicionar a cachaça e o gelo."
+  },
+  {
+    "id": 3,
+    "nome": "Aperol Spritz",
+    "imagem": "assets/aperol.png",
+    "tipo": "Alcoólico",
+    "tags": ["Cítrico", "Festivo"],
+    "ingredientes": ["Alguns mls Aperol", "Sprite limão", "Gelo", "Rodela de laranja", "O original vai espumante mas dá pra fazer sem"],
+    "preparo": "Em taça com gelo, adicione os ingredientes selecionados. Decore com laranja."
+  },
+  {
+    "id": 4,
+    "nome": "Tinto de Verano",
+    "imagem": "assets/tintodeverano.png",
+    "tipo": "Não alcoólico",
+    "tags": ["Refrescante", "Verão"],
+    "ingredientes": ["Vinho tinto, pode ser seco ou suave", "Suco de laranja", "Gelo"],
+    "preparo": "Adicione os ingredientes em uma taça com gelo e misture, é opcional colocar outros itens como rodelas de laranja e soda/sprite"
+  },
+  {
+    "id": 5,
+    "nome": "Margarita Clássica",
+    "imagem": "assets/margarita.png",
+    "tipo": "Alcoólico",
+    "tags": ["Cítrico", "Tequila"],
+    "ingredientes": ["50 ml tequila", "25 ml suco de limão", "20 ml Cointreau", "Sal para a borda", "Gelo"],
+    "preparo": "Bata todos os ingredientes com gelo e coe para uma taça com a borda salgada."
+  },
+  {
+    "id": 6,
+    "nome": "Piña Colada",
+    "imagem": "assets/pinacolada.png",
+    "tipo": "Alcoólico",
+    "tags": ["Tropical", "Doce"],
+    "ingredientes": ["Rum branco ou vodka", "Suco de abacaxi", "Creme de coco","Leite condesado", "Gelo"],
+    "preparo": "Bata tudo no liquidificador com gelo até ficar cremoso. Se fizer uma jarra utilizar toda a caixinha de creme de leite e leite de coco."
+    }
+  ]
+
