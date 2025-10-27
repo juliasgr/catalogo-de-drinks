@@ -24,7 +24,4 @@ Este site serve como um **catálogo pessoal de drinks**, onde posso consultar re
 - **JavaScript (ES6)** — lógica e interação  
 - **JSON** — base de dados dos drinks  
 
----
-
-## 🧩 Estrutura do projeto
 
