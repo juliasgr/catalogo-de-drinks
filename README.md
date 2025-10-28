@@ -6,18 +6,7 @@ Este site serve como um **catálogo pessoal de drinks**, onde posso consultar re
 
 ---
 
-## ✨ Funcionalidades
-
-- 🔍 **Barra de pesquisa** para encontrar rapidamente um drink pelo nome  
-- 📸 **Exibição de imagens, nome e descrição** de cada drink  
-- 🧾 **Lista de ingredientes** com opção de marcar o que já está separado  
-- 🧠 **Dados carregados via JSON**, simulando uma API simples  
-- 📱 **Design totalmente responsivo**, pensado para telas de celular e desktop  
-- 🎨 **Tema claro e colorido**, com foco em uma estética leve e divertida  
-
----
-
-## 🧱 Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - **HTML5** — estrutura da aplicação  
 - **CSS3** — estilo e responsividade  
